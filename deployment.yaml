@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: order-service
-          image: baneymelo/order-app:
+          image: baneymelo/order-app:8d3b094
           ports:
             - containerPort: 8080
           env:
